@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="NCC aviation website Member_Area">
+	<meta name="author" content="Herman Barnabas Kapange">		
+
+	<title>Member Area | NCC Aerobatic Aviation</title>
+	<link rel="stylesheet" href="icon_css/all.min.css">
+	<link rel="stylesheet" href="icon_css/fontawesome.min.css">
+	<link rel="stylesheet" href="NCC_aviation_stylesheet.css">
+	<script src="jquery.js"></script>
+</head>
+
+<body>
+	<header>
+		<div class="logo3">NCC Aerobatic Aviation</div>
+	<nav>
+		<ul>
+			<li class="nav_logo">NCC <i class="fas fa-plane"></i></li>
+			<li class="toggle"><span class="fas fa-bars"></span></li>
+			<div class="links">
+				<li><a href="Home_page.html">Home</a></li>
+				<li><a href="FAQ.html">FAQ</a></li>
+				<li><a href="Member_Area.html">Member Area</a></li>
+				<li><a href="Community_Group.html">Community Group</a></li>
+				<li><a href="Latest_Places_To_Fly.html">Latest Places to Fly</a></li>
+				<li><a href="Training_Online.html">Training Online</a></li>
+				<li><a href="Review.html">Review</a></li>
+			</div>
+			<li class="search_field">
+				<input type="search" placeholder="Search..">
+				<label class="icon">
+					<span class="fas fa-search"></span>
+				</label>
+			</li>
+		</ul>
+	</nav>
+    </header>
+
+    <br/>
+	<br/>
+    <div class="section_heading"><h1>Member Area</h1></div>
+    <div class="reg_container">
+        <div class="reg_title">
+            <p>Subscribe To Newsletter Below</p>
+        </div>
+        <div class="reg_form">
+            <div class="reg_field">
+                <label>First Name</label>
+                <input type="text" class="reg_field_input">
+            </div>
+            <div class="reg_field">
+                <label>Last Name</label>
+                <input type="text" class="reg_field_input">
+            </div>
+            <div class="reg_field">
+                <label>Password</label>
+                <input type="password" class="reg_field_input">
+            </div>
+            <div class="reg_field">
+                <label>Confirm Password</label>
+                <input type="password" class="reg_field_input">
+            </div>
+            <div class="reg_field">
+                <label><p>Gender</p></label>
+                <div class="gender_combobox">
+                    <select>
+                        <option value="">select</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+            </div>
+            <div class="reg_field">
+                <label>Email Address</label>
+                <input type="text" class="reg_field_input">
+            </div>
+            <div class="reg_field">
+                <label>Phone Number</label>
+                <input type="text" class="reg_field_input">
+            </div>
+            <div class="reg_field">
+                <label>Address</label>
+                <textarea class="address_textarea"></textarea>
+            </div>
+            <div class="reg_field">
+                <label>Postal Code</label>
+                <input type="text" class="reg_field_input">
+            </div>
+            <div class="reg_field">
+                <input type="submit" value="Subscribe" class="reg_button">
+            </div>
+        </div>
+    </div>
+
+
+    <br/>
+	<br/>
+	<footer class="footer_container">
+		<div class="split_foot">
+			<div>
+				<h3 class="home_h3_foot">About</h3>
+				<p>The aim of NCC Aerobatic aviation and this website is to provide guidance, help and support to all aviation enthusiasts at large and more specifically Aerobatics enthusiasts.</p>
+			</div>
+			<div class="news_links">
+				<h3 class="home_h3_foot">Aviation News and Articles</h3>				
+				<a href="https://www.iac.org/news/2021-04-09-eaa-chairman-and-ceo-jack-j-pelton-encourages-celebration-of-national-aerobatics-day">Aerobatics Day</a>
+				<a href="https://www.iac.org/news/2021-02-23-aerobatic-scholarships-offered-in-2021">Aerobatic Scholarship</a>
+				<a href="https://www.fai.org/news/jenny-dillon-mission-prove-women-can-do-it-too?type=term&id=27">Women In Aerobatics</a>
+				<a href="https://www.flyingmag.com/rob-holland-breaks-national-aerobatic-championships-record/">Aerobatics Record Break</a>
+				<a href="https://www.atsb.gov.au/media/news-items/2020/aerobatic-flight/">Risks of Aerobatics</a>
+				<a href="https://spectrumlocalnews.com/nc/charlotte/news/2020/12/10/behind-the-scenes-at-the-aeroshell-aerobatic-airshow">Aerobatic Airshow Behind the scenes</a>
+			</div>
+			<div class="buttons_container">
+				<h3 class="home_h3_foot">Socials</h3>
+				<a href="https://web.facebook.com/?_rdc=1&_rdr"><i class="fab fa-facebook-square"></i></a>
+				<a href="https://twitter.com/?lang=en"><i class="fab fa-twitter-square"></i></a>
+				<a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+				<a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+			</div>
+		</div>
+	</footer>
+
+<script>
+	$('nav ul li.toggle span').click(function(){
+		$('nav ul div.links').toggleClass("show");
+		$('nav ul li.toggle span').toggleClass("show");
+	});
+</script>	
+</body>
+</html>

@@ -1,0 +1,487 @@
+body {
+	font-family: helvetica, verdana, sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+	background: lightgray;
+}
+
+.logo1 {
+	max-width: 100%;
+	height: auto;
+	padding-top: 32vh;
+	padding-bottom: 32vh;
+	font-size: 2rem;
+	font-style: italic;
+	font-weight: bold;
+	color: black; 
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url("../NCC_Aviation_assignment/Images/logo1.jpg")
+}
+
+.logo2 {
+	max-width: 100%;
+	height: auto;
+	padding-top: 32vh;
+	padding-bottom: 32vh;
+	font-size: 2rem;
+	font-style: italic;
+	font-weight: bold;
+	color: black; 
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url("../NCC_Aviation_assignment/Images/logo2.jpg")
+}
+
+.logo3 {
+	max-width: 100%;
+	height: auto;
+	padding-top: 32vh;
+	padding-bottom: 32vh;
+	font-size: 2rem;
+	font-style: italic;
+	font-weight: bold;
+	color: white; 
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url("../NCC_Aviation_assignment/Images/logo3.jpg")
+}
+
+.logo4 {
+	max-width: 100%;
+	height: auto;
+	padding-top: 32vh;
+	padding-bottom: 32vh;
+	font-size: 2rem;
+	font-style: italic;
+	font-weight: bold;
+	color: white; 
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url("../NCC_Aviation_assignment/Images/logo4.jpg")
+}
+
+.logo5 {
+	max-width: 100%;
+	height: auto;
+	padding-top: 32vh;
+	padding-bottom: 32vh;
+	font-size: 2rem;
+	font-style: italic;
+	font-weight: bold;
+	color: white; 
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url("../NCC_Aviation_assignment/Images/logo5.jpg")
+}
+
+.logo6 {
+	max-width: 100%;
+	height: auto;
+	padding-top: 32vh;
+	padding-bottom: 32vh;
+	font-size: 2rem;
+	font-style: italic;
+	font-weight: bold;
+	color: white; 
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url("../NCC_Aviation_assignment/Images/logo6.jpg")
+}
+
+.logo7 {
+	max-width: 100%;
+	height: auto;
+	padding-top: 32vh;
+	padding-bottom: 32vh;
+	font-size: 2rem;
+	font-style: italic;
+	font-weight: bold;
+	color: white; 
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url("../NCC_Aviation_assignment/Images/logo7.jpg")
+}
+
+
+nav {
+	background: black;
+	padding: 0.1rem 0;
+	color: white;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+nav ul li.nav_logo {
+	flex: 1;
+	font-size: 1.5rem;
+	font-weight: bold;
+	font-style: italic;
+}
+
+nav ul div.links {
+	display: inline-flex;
+	padding: 0 0.6rem;
+}
+nav ul div.links a {
+	text-decoration: none;
+	font-size: 1.1rem;
+	color: white;
+	padding: 0 0.4rem;
+	font-weight: bold;
+}
+
+nav ul div.links a:hover {
+	color: orange;
+	transition: 0.3s;
+}
+
+nav ul .search_field {
+	height: 1.6rem;
+	width: 8.5rem;
+	display: flex;
+	background-color: gray;
+	border-radius: 0.3rem;
+}
+
+nav ul .search_field input {
+	height: 100%;
+	width: 7rem;
+	border: none;
+	border-radius: 0.3rem 0 0 0.3rem;
+	outline: none;
+	padding: 0.6rem;
+    font-size: 0.8rem;
+}
+
+nav ul .search_field .icon {
+	cursor: pointer;
+	height: 100%;
+	width: 2rem;
+	line-height: 2rem;
+	text-align: center;
+	background: lightgray;
+	border-radius: 0 0.3rem 0.3rem 0;
+}
+
+nav ul .search_field .icon:hover {
+	background: orange;
+	transition: 0.3s;
+}
+
+nav ul .search_field .icon span {
+	color: black;
+	font-size: 1rem;
+}
+
+nav ul li.toggle {
+	font-size: 1.5rem;
+	flex : 1;
+	padding: 0 1rem;
+	display: none;
+}
+
+nav ul li.toggle span {
+	cursor: pointer;
+	height: 2rem;
+	width: 2rem;
+	text-align: center;
+	line-height: 2rem;
+}
+
+nav ul li.toggle span.show::before {
+	content: '\f00d';
+}
+
+.split {
+	line-height: 1;
+	display: flex;
+	flex-direction: row;
+	background: white;
+}
+
+.split div {
+	margin: 0 2rem;
+	flex-basis: 100%;
+}
+
+.section_heading {
+	display: flex;
+	justify-content: center;
+}
+
+.home_h3 {
+	text-decoration: underline;
+	font-style: italic;
+}
+
+.main {
+	margin-inline: auto;
+	width: min(80%);
+}
+
+video {
+	width: 100%;
+	display: flex;
+}
+
+.bottom_img {
+	width: 100%;
+	display: flex;
+}
+
+.split_foot {
+	line-height: 1;
+	display: flex;
+	flex-direction: row;
+	background: gray;
+	color: white;
+	padding-top: 2rem;
+}
+
+.split_foot div {
+	margin: 0 2rem;
+	flex-basis: 100%;
+}
+
+.footer_container {
+	margin-inline: auto;
+	margin-bottom: 0.1rem;
+	width: min(100%)
+}
+
+.home_h3_foot {
+	text-decoration: underline;
+}
+
+.news_links {
+	display: flex;
+	flex-direction: column;
+
+}
+
+.news_links a {
+	padding-bottom: 1rem;
+	text-decoration: none;
+	color: white;
+	font-style: italic;
+}
+
+.news_links a:hover {
+	color: orange;
+	transition: 0.3s;
+}
+
+.buttons_container a {
+	font-size: 2rem;
+	color: white;
+	padding-left: 0.5rem;
+}
+
+.buttons_container a:hover {
+	color: orange;
+	transition: 0.3s;
+}
+
+.reg_container {
+	max-width: 50%;
+	width: 100%;
+	background: gray;
+	margin: 2rem auto;
+	padding: 3rem;
+}
+
+.reg_title {
+	font-size: 2rem;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+}
+
+.reg_form {
+	width: 100%;
+	color: white;
+}
+
+.reg_field {
+	display: flex;
+	margin-bottom: 1rem;
+	align-items: center;
+}
+
+.reg_field label {
+	width: 15rem;
+	margin-right: 1rem;
+}
+
+.reg_field input, .reg_field textarea {
+	width: 100%;
+	padding: 0.5rem 0.8rem;
+	border: 0.1rem solid;
+	border-radius: 0.35rem;
+	outline: none;
+}
+
+.reg_field textarea {
+	resize: none;
+	height: 7rem;
+}
+
+.reg_field .gender_combobox {
+	position: relative;
+	width: 100%;
+	height: 1rem;
+}
+
+.reg_field .gender_combobox select {
+	border: 0.1rem solid;
+	width: 100%;
+	padding: 0.5rem 0.8rem;
+	border-radius: 0.35rem;
+	outline: none;
+}
+
+.reg_field input:focus, .reg_field textarea:focus, .reg_field select:focus {
+	border: 0.15rem solid red;
+}
+
+.reg_field .reg_button {
+	width: 100%;
+	font-size: 1rem;
+	border: 0;
+	background: orange;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.reg_field .reg_button:hover {
+	background: black;
+	transition: 0.3s;
+}
+
+.split_places {
+	line-height: 1;
+	display: flex;
+	flex-direction: row;
+	background: white;
+}
+
+.split_places div {
+	padding: 1rem;
+	flex-basis: 100%;
+}
+
+.split_review {
+	line-height: 1;
+	display: flex;
+	flex-direction: row;
+}
+
+.split_review div {
+	flex-basis: 100%;
+	margin: 1rem;
+	padding: 1rem;
+	border: 0.1rem solid orange;
+	background: white;
+}
+
+.city_image {
+	width: 100%;
+	display: flex;
+}
+
+.training_links {
+	display: flex;
+	flex-direction: column;
+}
+
+.training_links a {
+	padding: 0.5rem 0;
+	text-decoration: none;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.training_links a:hover {
+	color: orange;
+	transition: 0.3s;
+}
+
+.user_icon {
+	font-size: 2rem;
+}
+
+.name {
+	font-weight: bold;
+}
+
+@media screen and (max-width: 1090px) {
+	nav ul li.nav_logo {
+		display: none;
+	}
+
+	nav ul div.links {
+		flex: 4;
+	}
+}
+
+@media screen and (max-width: 1010px){ 
+	nav ul li.toggle {
+		display: block;
+	}
+	
+	nav ul div.links {
+		position: fixed;
+		top: -20rem;
+		width: 100%;
+		background: black;
+		display: inline-block;
+	}
+
+	nav ul div.links.show {
+		top: 4rem;
+	}
+
+	nav ul div.links li {
+		text-align: center;
+		padding-top: 1rem;
+	}
+
+	.split {
+		flex-direction: column;
+	}
+
+	.split_foot {
+		flex-direction: column;
+	}
+
+	.split_places {
+		flex-direction: column;
+	}
+
+	.split_review {
+		flex-direction: column;
+	}
+
+	.reg_field {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+}
+
+
+
